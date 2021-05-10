@@ -1,0 +1,15 @@
+ApplicationName: rtrt-scraper
+InstanceId: 1
+
+url: https://api.rtrt.me
+appid: 604a58501a2896aa768b4729
+token: ba35f83ab05a3dbe2222a017f70822f2
+
+events:
+  Virgina:
+    name: DMP-ECTF-2021
+    categories: .*elite.*
+
+schema:
+  fields: event
+
